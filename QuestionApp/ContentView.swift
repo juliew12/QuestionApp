@@ -16,7 +16,7 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 
                 VStack(spacing: 15){
-                    Text("Are you ready for some science trivia? Hello ")
+                    Text("Are you ready for some science trivia?")
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(Color.black)
