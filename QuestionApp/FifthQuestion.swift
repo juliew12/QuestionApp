@@ -15,7 +15,7 @@ struct FifthQuestion: View {
                 .resizable()
                 .ignoresSafeArea()
             VStack(spacing: 50){
-                Text("5. Which of the following animals is capable of regenerating lost body parts?")
+                Text("5. Which of the following animals is capable of regenerating lost body parts?").font(Font.custom("Lato-Black", size: 25))
                     .font(.title)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)

@@ -15,13 +15,14 @@ struct FirstQuestion: View {
                 .resizable()
                 .ignoresSafeArea()
             VStack(spacing: 50){
-                Text("1. What is the hardest natural substance found on Earth?")
-                    .font(.title)
+                Text("1. What is the hardest natural substance found on Earth?").font(Font.custom("Lato-Black", size: 30)).multilineTextAlignment(.center)
+                    
            
     
                 Button("A. Diamond") {
                     response = "Correct! ✅ 🥳"
                 }
+                .padding(.horizontal)
                 .fontWeight(.bold)
                 .frame(width: 270, height: 70)
                 .background(Color("Button"))

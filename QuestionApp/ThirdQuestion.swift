@@ -15,7 +15,7 @@ struct ThirdQuestion: View {
                 .resizable()
                 .ignoresSafeArea()
             VStack(spacing: 50){
-                Text("3. Which planet in our solar system is known for having a giant red spot?")
+                Text("3. Which planet in our solar system is known for having a giant red spot?").font(Font.custom("Lato-Black", size: 30))
                     .font(.title)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)

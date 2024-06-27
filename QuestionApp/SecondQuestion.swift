@@ -15,7 +15,7 @@ struct SecondQuestion: View {
                 .resizable()
                 .ignoresSafeArea()
             VStack(spacing: 50){
-                Text("2. What is the primary gas found in the Earth's atmosphere?")
+                Text("2. What is the primary gas found in the Earth's atmosphere?").font(Font.custom("Lato-Black", size: 30))
                     .font(.title)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)

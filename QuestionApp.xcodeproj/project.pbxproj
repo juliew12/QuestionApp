@@ -19,6 +19,7 @@
 		C9C96C242C2BB56600D1565C /* ThirdQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C96C232C2BB56600D1565C /* ThirdQuestion.swift */; };
 		C9C96C262C2BB95F00D1565C /* FourthQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C96C252C2BB95F00D1565C /* FourthQuestion.swift */; };
 		C9C96C282C2BB9AD00D1565C /* FifthQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C96C272C2BB9AD00D1565C /* FifthQuestion.swift */; };
+		C9FBBB9B2C2CEF5B00E3AAEB /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9FBBB9A2C2CEF5B00E3AAEB /* Lato-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C9C96C232C2BB56600D1565C /* ThirdQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdQuestion.swift; sourceTree = "<group>"; };
 		C9C96C252C2BB95F00D1565C /* FourthQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthQuestion.swift; sourceTree = "<group>"; };
 		C9C96C272C2BB9AD00D1565C /* FifthQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthQuestion.swift; sourceTree = "<group>"; };
+		C9FBBB9A2C2CEF5B00E3AAEB /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		C9FBBB9C2C2CEFC100E3AAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		C90217932C29C3470004F1C5 /* QuestionApp */ = {
 			isa = PBXGroup;
 			children = (
+				C9FBBB9C2C2CEFC100E3AAEB /* Info.plist */,
 				C90217942C29C3470004F1C5 /* QuestionAppApp.swift */,
 				C90217962C29C3470004F1C5 /* ContentView.swift */,
 				C9C96C1F2C2B95C000D1565C /* FirstQuestion.swift */,
@@ -138,6 +142,7 @@
 			children = (
 				C90217AF2C29C3480004F1C5 /* QuestionAppUITests.swift */,
 				C90217B12C29C3480004F1C5 /* QuestionAppUITestsLaunchTests.swift */,
+				C9FBBB9A2C2CEF5B00E3AAEB /* Lato-Black.ttf */,
 			);
 			path = QuestionAppUITests;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C902179C2C29C3480004F1C5 /* Preview Assets.xcassets in Resources */,
+				C9FBBB9B2C2CEF5B00E3AAEB /* Lato-Black.ttf in Resources */,
 				C90217992C29C3480004F1C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +450,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"QuestionApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuestionApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -472,6 +479,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"QuestionApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuestionApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

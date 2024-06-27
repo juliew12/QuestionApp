@@ -15,8 +15,7 @@ struct FourthQuestion: View {
                 .resizable()
                 .ignoresSafeArea()
             VStack(spacing: 50){
-                Text("4. Which element is known as the King of Elements due to its central role in Chemistry?")
-                    .font(.title)
+                Text("4. Which element is known as the King of Elements due to its central role in Chemistry?").font(Font.custom("Lato-Black", size: 25))
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
            
